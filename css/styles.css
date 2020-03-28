@@ -1,0 +1,189 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
+}
+
+h1, h2, h3, h4, h5, h6{
+line-height: 1.5;
+font-weight:800;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 150px;
+  color:#8f8f8f;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+}
+
+.end-heading{
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid{
+padding: 3%;
+}
+
+/* Sections */
+
+.white-section{
+  background-color: white;
+}
+
+.colored-section{
+  background-color: #fcf7bb;
+}
+
+/* Navigation bar */
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size:1rem;
+}
+
+/* Buttons */
+.col-lg-6{
+  margin-top: 30px;
+  padding-right: 0;
+}
+
+.download-buttons{
+margin: 5% 3% 5% 0;
+}
+
+/* Title section*/
+#title .container-fluid{
+padding: 3% 15%;
+padding-bottom: 55px;
+text-align:left;
+}
+
+/* Title image */
+.MENU{
+  width: 430px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20px;
+}
+
+@media (max-width: 1091px) {
+.MENU{
+position: static;
+transform: rotate(0);
+}
+
+h1 {
+  margin-bottom:30px;
+}
+}
+
+/* Features section */
+#features{
+  padding: 7% 7%;
+}
+
+.feature-title{
+  font-weight:bolder;
+  font-size:1.5rem;
+}
+
+.feature-box{
+    text-align:center;
+}
+
+.icon{
+  color: #79bac1;
+  margin-bottom: 0.6rem;
+}
+
+.icon:hover{
+  color:#f6d186;
+}
+
+/* Testimonials section */
+#testimonials{
+padding: 2% 7% 0;
+background-color: #79bac1;
+color: white;
+}
+
+.testimonial-image{
+  width: 25%;
+  border-radius: 20%;
+  margin: 5px 20px 0 20px;
+}
+
+.testimonial-foodimage{
+  width: 50%;
+  border-radius: 20%;
+  margin: 5px 20px 0 20px;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  margin-bottom: 5%
+}
+
+.testimonial-control{
+  width: 200px;
+   height: 300px;
+ }
+
+/* Press Section */
+#press{
+  background-color: #79bac1;
+}
+
+.press-img{
+    width: 10%;
+    margin:0 20px;
+}
+
+.carousel-item{
+  padding: 3% 15%;
+  height: 580px;
+}
+
+/* Pricing */
+#pricing{
+  padding:3% 3% 0;
+}
+
+.price-text{
+  font-size: 2.5rem;
+}
+
+.price-title{
+  font-weight:bolder;
+  font-size:1.5rem;
+}
+
+/* CTA Section */
+.btn{
+  margin-right: 20px;
+  }
+
+  #cta{
+    padding-top: 2%;
+  }
+
+/* Footer Section */
+.fab-footer{
+  margin: 5px;
+}
